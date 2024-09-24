@@ -1,3 +1,4 @@
+require('dotenv').config(); // Load .env variables
 import { OrderType, Side, Spot, TimeInForce } from "@binance/connector-typescript";
 
 const apiKey = process.env.API_KEY || '';
