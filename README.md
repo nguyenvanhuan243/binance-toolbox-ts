@@ -22,7 +22,11 @@ export API_SECRET=<you_api_secret>
 
 ## How to run
 
-
+### Api
+Get overview account
+```
+http://localhost:3000/account-overview
+```
 ### get market info
 
 ```typescript
