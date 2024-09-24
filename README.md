@@ -1,6 +1,7 @@
 # Binance Toolbox Typescript
 
 A few scripts that showing how to use the Binance connector `@binance/connector-typescript`.
+https://www.npmjs.com/package/@binance/connector-typescript
 ## Preparation
 
 1. Install package
