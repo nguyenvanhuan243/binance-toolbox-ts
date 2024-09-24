@@ -7,7 +7,7 @@ A few scripts that showing how to use the Binance connector `@binance/connector-
 
 ```typescript
 
-npm install
+yarn install
 
 ```
 
@@ -25,19 +25,19 @@ export API_SECRET=<you_api_secret>
 ### get market info
 
 ```typescript
-npm run market
+yarn run market
 
 ```
 ### get account info and asset balance
 
 ```typescript
-npm run account
+yarn run account
 ```
 
 ### order related methods
 
 ```typescript
-npm run place-order
+yarn run place-order
 ```
 ## License
 MIT
