@@ -5,4 +5,7 @@ module.exports = function (app) {
 
   app.route('/')
     .get(spotController.getHealthServer)
+
+  app.route('/account-overview')
+    .get(spotController.accountOverview)
 };
