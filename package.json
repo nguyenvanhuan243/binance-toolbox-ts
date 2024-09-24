@@ -6,7 +6,8 @@
     "account": "ts-node ./src/account.ts",
     "market": "ts-node ./src/market.ts",
     "place-order": "ts-node ./src/place-order.ts",
-    "websocket": "ts-node ./src/websocket.ts"
+    "websocket": "ts-node ./src/websocket.ts",
+    "start": "nodemon server.js"
   },
   "keywords": [
     "Binance"
@@ -15,10 +16,13 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.8.8",
+    "nodemon": "^3.0.1",
     "typescript": "^5.2.2"
   },
   "dependencies": {
     "@binance/connector-typescript": "^0.3.10",
-    "dotenv": "^16.4.5"
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
   }
 }
