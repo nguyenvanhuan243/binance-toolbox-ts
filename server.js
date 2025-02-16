@@ -5,7 +5,7 @@ const cors = require("cors");
 
 require('dotenv').config();
 const corsOptions = {
-  origin: [ "http://localhost:3000", "http://localhost:3001" ],
+  origin: "*", // Allow all origins
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
 };
