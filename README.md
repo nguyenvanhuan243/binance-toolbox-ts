@@ -8,6 +8,12 @@ https://www.npmjs.com/package/@binance/connector-typescript
 
 ```typescript
 
+nvm use
+
+```
+
+```typescript
+
 yarn install
 
 ```
